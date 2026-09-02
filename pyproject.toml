@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=80.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectral-recovery"
+version = "0.1.0"
+description = "Controlled Monte Carlo study of correlation-matrix spectral clipping."
+requires-python = ">=3.11"
+dependencies = ["numpy==2.5.2", "matplotlib==3.11.1"]
+
+[project.optional-dependencies]
+dev = ["pytest==9.1.1"]
+
+[project.scripts]
+spectral-recovery = "spectral_recovery.cli:main"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+

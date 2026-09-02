@@ -1,0 +1,9 @@
+{
+  "seed": 20260902,
+  "dimensions": 80,
+  "replications": 300,
+  "q_values": [0.25, 0.5, 0.8],
+  "factor_correlations": [0.0, 0.1, 0.3, 0.6],
+  "mp_diagnostic_replications": 160
+}
+
