@@ -55,4 +55,6 @@ Measured across 300 random replications in each of 12 configurations: 3 sample-t
 
 ## Review boundary
 
-The author can run these checks but cannot independently verify the implementation. Stop at a frozen local candidate commit for fresh, read-only review. No remote, parent Portfolio, live-site, or public publication action is authorized.
+The author can run these checks but cannot independently verify the implementation. Stop at a frozen local candidate commit for fresh, read-only review.
+
+**Publication authorized 2026-09-15** (see `docs/decisions/ADR-002-publication-authorization.md`). This repository is public.
